@@ -1,0 +1,3 @@
+Nome|rrr;Peso Corporal|40,00;Altura|1,70;Interpretação|13.84083044982699
+Nome|hhhh;Peso Corporal|100,00;Altura|1,90;Interpretação|27.70083102493075
+Nome|Raquel;Peso Corporal|70,00;Altura|1,70;Interpretação|24.221453287197235
