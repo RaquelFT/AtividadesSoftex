@@ -1,0 +1,16 @@
+{
+  "name": "meuprojetonode",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto usando o nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primeiro",
+    "projeto",
+    "nodeJs"
+  ],
+  "author": "Raquel Fernandes",
+  "license": "ISC"
+}
