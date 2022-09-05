@@ -1,0 +1,32 @@
+function Banco(conta, tipoDaConta, agencia, saldo){
+    this.conta = conta;
+    this.tipoDaConta = tipoDaConta;
+    this.agencia = agencia;
+    this.saldo = saldo;
+
+    this.buscarSaldo = function meuSaldo(){
+		return this.saldo;
+    }
+
+    this.deposito = function meuDeposito(valor){
+        this.saldo = this.saldo + valor;
+    } 
+    
+    this.saque = function meuSaque(valor){
+        this.saldo = this.saldo - valor;
+    }
+
+    this.numDaConta = function minhaConta(){
+        return this.conta;
+    }
+
+
+}
+var minhaConta = new Banco(3334, 'contacorrente', '011', 1000.00);
+console.log(minhaConta);
+console.log(minhaConta.buscarSaldo());
+minhaConta.deposito(10);
+console.log(minhaConta.buscarSaldo());
+minhaConta.saque(50);
+console.log(minhaConta.buscarSaldo());
+console.log(minhaConta.numDaConta());
